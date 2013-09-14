@@ -3,6 +3,9 @@ CSS3-MenuSlider
 
 Recently i was required to use a menu slider for my project. After some research i was able to find some nice jQuery plugins, but the problem was jQuery animation have lower FPS and due to that it lags in mobile devices. I was amused by [MailChimp](http://mailchimp.com) menu slider in there login side, so I decided to create my own CSS3 menu slider.
 
+[Project demo](http://b3ckstage.github.io/CSS3-MenuSlider/) | [Github](https://github.com/b3ckstage/CSS3-MenuSlider)
+
+
 ## CSS3 vs jQuery animation
 
 jQuery animation have lower FPS and all actions performs on CPU level [comparison demo](http://css3.bradshawenterprises.com/blog/jquery-vs-css3-transitions/), while [CSS3 transform](http://www.w3.org/TR/css3-transforms/) performs on GPU level so your CPU will not bother with animations and as a result much higher FPS and smooth transition across all devices.
