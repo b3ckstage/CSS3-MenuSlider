@@ -1,8 +1,6 @@
 CSS3-MenuSlider
 ===============
 
-# Introduction
-
 Recently i was required to use a menu slider for my project. After some research i was able to find some nice jQuery plugins, but the problem was jQuery animation have lower FPS and due to that it lags in mobile devices. I was amused by [MailChimp](http://mailchimp.com) menu slider in there login side, so I decided to create my own CSS3 menu slider.
 
 # CSS3 vs jQuery animation
@@ -27,7 +25,7 @@ Chrome 1.0+, Safari 3.2+, Firefox 3.5+, Internet Explorer 9+ and Opera 10.5+ (al
 
 # Future release
 
-Right slide
+Right slide option
 
 # Contribute
 
