@@ -1,0 +1,106 @@
+/* Main */
+body {
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+#menu {
+  background:#f7f7f7;
+  border-right: 1px solid #E0E0E0;
+}
+p {
+  line-height: 22px;
+}
+p a {
+  color: #079cda;
+  text-decoration: none;
+}
+h1 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid #E0E0E0;
+  background-color: #fff;
+}
+header > a {
+  position: relative;
+  top: 33px;
+  left: 30px;
+  background: url('../images/logo.png') left top no-repeat;
+  width: 182px;
+  height: 17px;
+  display: block;
+  text-indent: -99999px;
+}
+header > section > span {
+  float: left;
+  margin: 8px 0 0 5px;
+}
+header > section > img {
+  float: left;
+  border: 1px solid #000; 
+}
+
+/* Menu */
+menu > li {
+  float: left;
+  width: 100%;
+}
+menu > li > a {
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+  display: block;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 10px;
+  color: #555;
+}
+menu > li > a:hover {
+  color: #079cda;
+}
+
+/* Header */
+aside#header {
+  border-bottom: 1px solid #E0E0E0;
+  background-color: #ffffff;
+}
+
+aside#header > figure#logo {
+  position: relative;
+  margin: 0 auto;
+  width: 182px;
+  height: 17px;
+  display: block;
+  text-indent: -99999px;
+  background: url('../images/logo.png') left top no-repeat;
+}
+aside#header > .menu-icon {
+  float: left;
+  display: block;
+  text-decoration: none;
+  text-indent: -99999px;
+  background: url('../images/ico-menu.png') left top no-repeat;
+  height: 12px;
+  width: 15px;
+  position: relative;
+  top: 3px;
+}
+
+/* Footer */
+footer {
+  float: left;
+  padding: 10px;
+  color: #777;
+}
+footer a {
+  color: #555;
+  text-decoration: none;
+}

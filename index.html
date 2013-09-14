@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS3 Menu Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+  <link media="screen" rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <link media="screen" rel="stylesheet" type="text/css" href="assets/css/theme.css" />
+  <link media="screen" rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+  <script type="text/javascript" src="assets/js/plugins/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins/response.min.js"></script>
+  <script type="text/javascript" src="assets/js/base/menu.js"></script>
+</head>
+
+<body> 
+<!-- Header -->
+<aside id="header">
+  <a class="menu-icon show-menu" href="javascript:void(0);">Menu</a>
+  <figure id="logo"><a href="javascript:void(0);">logo</a></figure>
+</aside>
+
+<!-- Side Menu -->
+<aside id="menu">
+  <header>
+   <a href="javascript:void(0);">logo</a>
+  </header>
+  <menu>
+  <li><a href="#">List item 1</a></li>
+  <li><a href="#">List item 2</a></li>
+  <li><a href="#">List item 3</a></li>
+  <li><a href="#">List item 4</a></li>
+  <li><a href="#">List item 5</a></li>
+  </menu>
+  <footer>
+    Created by <a href="http://twitter.com/b3ckstage" target="_blank">B3CKSTAGE</a>
+  </footer>
+</aside>
+
+<!-- Content -->
+<aside id="wrapper">
+<section id="container">
+  <h1>Introduction</h1>
+  <p>Recently i was required to use a menu slider for my project. After some research i was able to find some nice jQuery plugins, but the problem was jQuery animation have lower FPS and due to that it lags in mobile devices. I was amused by <a href="http://mailchimp.com" target="_blank">MailChimp</a> menu slider in there login side, so I decided to create my own CSS3 menu slider.</p>
+  <h1>CSS3 vs jQuery animation</h1>
+  <p>jQuery animation have lower FPS and all actions performs on CPU level <a href="http://css3.bradshawenterprises.com/blog/jquery-vs-css3-transitions/" target="_blank">comparison demo</a>, while <a href="http://www.w3.org/TR/css3-transforms/" target="_blank">CSS3 transform</a> performs on GPU level so your CPU will not bother with animations and as a result much higher FPS and smooth transition across all devices.</p>
+  <h1>Javascript</h1>
+  <p>CSS3 Menu Slider is using <a href="https://github.com/jquery/jquery" target="_blank">jQuery</a> and <a href="https://github.com/ryanve/response.js" target="_blank">Response JS</a></p>
+  <p><strong>jQuery</strong> is for triggering actions and all actions are performing in <strong>CSS3</strong></p>
+  <p><strong>Response js</strong> is to determine and perform the CSS3 actions when window resizes or opens in mobile device.</p>
+  <h1>Usage</h1>
+  <p>All files are <strong>required</strong>, while in theme.css you can change the look according to your platform.</p>
+  <h1>Compatibility</h1>
+  <p>Chrome 1.0+, Safari 3.2+, Firefox 3.5+, Internet Explorer 9+ and Opera 10.5+ (all tested)</p>
+  <h1>Future release</h1>
+  <p>Right slide</p>
+  <h1>Contribute</h1>
+  <p>Please help to make it more better and add additional features that you like.</p>
+</section>
+</aside>
+      
+</body>
+
+</html>
