@@ -104,3 +104,15 @@ footer a {
   color: #555;
   text-decoration: none;
 }
+
+/* Resize me image */
+.resizeme {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  background: url('../images/img-resize.png') left top no-repeat;
+  text-indent: -99999px;
+  width: 58px;
+  height: 62px;
+}
