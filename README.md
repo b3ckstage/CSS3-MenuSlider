@@ -32,3 +32,7 @@ Right slide option
 ## Contribute
 
 Please help to make it more better and add additional features that you like.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/b3ckstage/css3-menuslider/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
